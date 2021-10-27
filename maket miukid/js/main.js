@@ -42,3 +42,15 @@ if (password == 123){
 else{
     alert("incorrect");
 }
+let title = document.getElementsByClassName("title");
+console.log(title[0].innerText);
+
+
+let imgswt = document.getElementsByClassName("imgswt");
+console.log(imgswt);
+
+let price =  document.getElementsByClassName("price");
+console.log(price[0].innerText);
+
+let tooltip = document.getElementsByClassName("tooltip");
+console.log(tooltip[0].innerText);
