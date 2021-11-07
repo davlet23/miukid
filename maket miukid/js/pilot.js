@@ -26,18 +26,18 @@
 // }
 // main();
 
-function check(){
-    let age =+prompt("Enter your age..");
-    if(age<=18){
-        alert("Fucking off");
-    }
-    if(age >18 && age < 60){
-      alert("You are anough to drink vodka");  
+// function check(){
+//     let age =+prompt("Enter your age..");
+//     if(age<=18){
+//         alert("Fucking off");
+//     }
+//     if(age >18 && age < 60){
+//       alert("You are anough to drink vodka");  
 
-    }if(age>=60){
-        alert("You are in risk to died from vodka");
-    }
+//     }if(age>=60){
+//         alert("You are in risk to died from vodka");
+//     }
     
 
-}
-check();
+// }
+// check();
