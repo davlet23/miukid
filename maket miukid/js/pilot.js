@@ -1,43 +1,23 @@
 
-// let radius;
-// let res;
-// let p = 3.14;
-// function dlina(){
-//     radius =+prompt("Enter radius");
-//     let diametr = radius + radius;
-//     res = diametr * p;
-//     alert(res);
-// }
-// dlina();
+
+// var object = {0: 'first', 1: 'second', 2: 'third', length: 3}
+// var array = [];
+
+// // Преобразуем псевдомассив в массив
+// for (var i = 0; i < object.length; i++) {
+//    array.push(object[i]);
+// };
+
+// console.log( array ); // [1, 2, 3]
 
 
-// function main(){
-//     let a  = +prompt("Enter number...");
-//     let b = +prompt("Enter number..=");
-//     if (a < b){
-//         alert(a);
-//     }if(a >b){
-//         alert(b)
-//     }
-//     else{
-//         alert("equals");
-//     }
 
-// }
-// main();
-
-// function check(){
-//     let age =+prompt("Enter your age..");
-//     if(age<=18){
-//         alert("Fucking off");
-//     }
-//     if(age >18 && age < 60){
-//       alert("You are anough to drink vodka");  
-
-//     }if(age>=60){
-//         alert("You are in risk to died from vodka");
-//     }
     
-
-// }
-// check();
+function a (){
+    let s = ["first", "second", "third" ];
+    for(res of s){
+       let b = res.split('');
+       console.log(b);
+    }
+}
+a();
