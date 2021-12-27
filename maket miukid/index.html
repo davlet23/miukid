@@ -35,7 +35,10 @@
                         <ul class="ul__li b-r" >
                             <li><i class="fas fa-language"></i>Language ENG<i class="fas fa-chevron-down"></i></li>
                             <li><i class="fas fa-money-bill-alt"></i>Currency: USD</li>
-                            <li>Sign in/Register</li>
+                            <li>
+                                <a class="reg" href="#">Sign in/Register</a> 
+                                <div class="register">Login:<input type="text" id="login"><br>Password:<input type="password" id="password"><br><button id="check">Register</button></div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -197,55 +200,12 @@
                                 <div class="hover__menu">
                                     <button class="orange_circle"><a href="#"><img src="images/bag.png" alt="bag"></a>
                                         <div class="droppdown__menu">
-                                            <div class="check-out">
-                                                <div class="img-cart">
-                                                    <a href="#"><img src="images/jaket.jpg" alt="jaket"></a>
-                                                </div>
-                                                <div class="para-cart">
-                                                    <p style="margin-left: -35px;">
-                                                        <a href="#">Crepe Jacket With Pompom</a>
-                                                    </p>
-                                                    <span>$36.00</span>
-                                                    <del>$42.00</del>
-                                                    <br>
-                                                    <a class="trash" href="#"><i class="far fa-trash-alt"></i></a>
-                                                </div>
-                                            </div>
-                                            <br>
-                                            <div class="check-out">
-                                                <div class="img-cart">
-                                                    <a href="#"><img src="images/sweatshirt.jpg" alt="sweatshirt"></a>
-                                                </div>
-                                                <div class="para-cart">
-                                                    <p style="margin-left: -55px;">
-                                                        <a href="#">Animal Print Sweatshirt</a> 
-                                                    </p>
-                                                    <span>$36.00</span>
-                                                    <del>$42.00</del>
-                                                    <br>
-                                                    <a class="trash" href="#"><i class="far fa-trash-alt"></i></a>
-                                                </div>
-                                            </div>
-                                            <br>
-                                            <div class="check-out">
-                                                <div class="img-cart">
-                                                    <a href="#"><img src="images/cardigan.jpg" alt="cardigan"></a>
-                                                </div>
-                                                <div class="para-cart">
-                                                    <p style="margin-left:-120px">
-                                                        <a href="#"> Knit Cardigan</a>
-                                                    </p>
-                                                    <span>$36.00</span>
-                                                    <del>$42.00</del>
-                                                    <br>
-                                                    <a class="trash" href="#"><i class="far fa-trash-alt"></i></a>
-                                                </div>
-                                            </div>
-                                            <hr>
+                                            <ul> 
+                                            </ul>
                                             <div class="check-out2">
                                                 <div class="total">
                                                     <p>Total</p>
-                                                    <span>$ 689.8</span>
+                                                    <span>$ 0</span>
                                                 </div>
                                                 <div class="check">
                                                     <a href="#">Check out</a>
@@ -257,7 +217,9 @@
                             </div>
                             <div class="bag">
                                 <p><a class="cart" href="">My Cart.</a> </p>
-                                <p><b>01</b><span>/$150.00</span></p>
+                                <p><b class="carrent_cart">0</b>
+                                    /
+                                    <span class="total_cart">$ 0</span></p>
                             </div>
                         </div>
                     </div>
@@ -279,55 +241,8 @@
                         </div>
                         <div class="body__block">
                             <div class="list__product">
-                                <div class="product">
-                                    <div class="img">
-                                        <div class="tooltip">
-                                            <span>New</span>
-                                        </div>
-                                        <img class="imgswt" src="images/printsweatshirt.jpg" alt="sweater">
-                                        <div class="desc_img">
-                                            <i class="fas fa-arrows-alt"></i>
-                                            <span class="quick">Quick view</span>
-                                        </div>
-                                    </div>
-                                    <div class="body__product">
-                                        <p class="title">Animal Sweatshirt</p>
-                                            <div class="block__stars">
-                                                <div class="stars">
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                    <i class="fas fa-star"></i>
-                                                </div>
-                                                <span>6 Review(s)</span>
-                                            </div>
-                                            <div class="price">
-                                                <span>$36.00</span>
-                                                <del>$42.00</del>
-                                             </div>
-                                        <div class="btns dnone">
-                                            <ul class="ul">
-                                                <li class="inbag">
-                                                    <span class="grey_circle">
-                                                        <i class="fas fa-shopping-bag"></i>
-                                                    </span>
-                                                </li>
-                                                <li class="scale">
-                                                    <span class="grey_circle">
-                                                        <i class="fas fa-balance-scale"></i>
-                                                    </span>
-                                                </l>
-                                                <li class="heart">
-                                                    <span class="grey_circle">
-                                                        <i class="fas fa-heart"></i>
-                                                    </span>
-                                                </li>   
-                                            </ul>
-                                         </div>
-                                    </div>
-                                </div>
-                                <div class="product">
+                                
+                                <!-- <div class="product">
                                     <div class="img">
                                         <div class="tooltip">
                                             <span>New</span>
@@ -351,7 +266,8 @@
                                                 <span>6 Review(s)</span>
                                             </div>
                                             <div class="price">
-                                                <span>$36.00</span>
+                                                <span class="currency">$</span>
+                                                <span class="oprice">50</span>
                                                 <del>$42.00</del>
                                              </div>
                                         <div class="btns dnone">
@@ -399,7 +315,8 @@
                                                 <span>6 Review(s)</span>
                                             </div>
                                             <div class="price">
-                                                <span>$36.00</span>
+                                                <span class="currency">$</span>
+                                                <span class="oprice">36</span>
                                                 <del>$42.00</del>
                                              </div>
                                         <div class="btns dnone">
@@ -451,7 +368,8 @@
                                                 <span>6 Review(s)</span>
                                             </div>
                                             <div class="price">
-                                                <span>$36.00</span>
+                                                <span class="currency">$</span>
+                                                <span class="oprice">35</span>
                                                 <del>$42.00</del>
                                              </div>
                                         <div class="btns dnone">
@@ -496,7 +414,8 @@
                                                 <span>6 Review(s)</span>
                                             </div>
                                             <div class="price">
-                                                <span>$36.00</span>
+                                                <span class="currency">$</span>
+                                                <span class="oprice">18</span>
                                                 <del>$42.00</del>
                                              </div>
                                         <div class="btns dnone">
@@ -519,7 +438,7 @@
                                             </ul>
                                          </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </section>
