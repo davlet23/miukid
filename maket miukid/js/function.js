@@ -137,7 +137,6 @@ class cardProduct{
                                 </div>
                             </div>`;
         this.innerBlock.append(div);
-
     }
 }
 new cardProduct(
@@ -180,3 +179,4 @@ new cardProduct(
      2500,
     '.list__product'
 ).render();
+
